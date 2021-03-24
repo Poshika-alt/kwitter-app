@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <link rel="stylesheet" href="kwitter_app.css">
+  <script src="kwitter_app.js"></script>    
+</head>
+<body>
+     <div class="container">
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+			Kwitter	
+			<sup>
+				<img src="m2.png">
+			</sup>
+		</h1>
+		<div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+	</center>
+</div>
+
+<center>
+	<div class="input_div_message_page" >
+		<label>Send:</label>
+        <input type="text" id="msg" class="form-control" placeholder="write your message">
+		<button class="btn btn-success" onclick="send()">Send</button>
+
+	</div>
+</center> 
+</body>
+</html>
